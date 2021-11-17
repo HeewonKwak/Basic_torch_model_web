@@ -93,3 +93,5 @@ imagenet_class_index
 test.py
 
 app
+
+flask_model.pem
