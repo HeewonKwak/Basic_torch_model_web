@@ -1,10 +1,11 @@
 import io
 import json
-import cv2
+# import cv2
 from torchvision import models
 import torchvision.transforms as transforms
 from PIL import Image
-from flask import Flask, jsonify, request, send_file
+from flask import Flask, jsonify, request
+# from flask import Flask, jsonify, request, send_file
 
 
 app = Flask(__name__)
